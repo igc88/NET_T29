@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Secciones y líneas generales de un documento HTML5</title>
+        <meta name="description" content="">
+        <meta name="viewport"b content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <h1>Texto para el ejercicio</h1>
+        <h2>Secciones y líneas generales de un documento HTML<sub>5</sub></h2>
+        <p>
+            <span>La especificación HTML<sub>5</sub> trae muchos nuevos elementos a los desarrolladores web,</span>
+            <span>permitiéndoles describir la estructura de un documento web con semántica estandarizada. Este</span>
+            <span>documento describe estos elementos y cómo usarlos para definir el perfil de cualquier</span>
+            <span>documento.</span>
+        </p>
+        <h2>Problemas resueltos por HTML<sub>5</sub></h2>
+        <p>
+            <span>La definición de la estructura de un documento en HTML4 y su algoritmo de perfilado es muy</span>
+            <span>tosco y genera numerosos problemas:</span>
+            <ol type="1">
+                <li>
+                    <span>
+                        HTML<sub>5</sub> quita la necesidad de elementos &lt;div&gt; para definir secciones semánticas sin definir</span>
+                    <span>
+                        valores específicios para los atributos class, introduciendo un nuevo elemento, &lt;section&gt;, el
+                    </span>                                    
+                    <span>
+                        elemento de sección HTML.
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        Mezclar varios documentos es difícil: la inclusión de un subdocumento en un documento
+                    <span>
+                        principal. Esto se resuelve en HTML<sub>5</sub> con los elementos de seccionado(&lt;article&gt;, &lt;section&gt;,
+                    </span>                                    
+                    <span>
+                        &lt;nav&gt; y &lt;aside&gt;) son siempre subsecciones de su sección ancestra más cercana.
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        HTML<sub>5 introduce el elemento &lt;hgroup&gt; que oculta todos los elementos de cabecera excepto</sub>
+                    <span>
+                        el primero de más alto rango (por ejemplo, &lt;hgroup&gt;&lt;h1&gt;Justine&lt;/h1&gt;&lt;h2&gt;Les Malheurs de)
+                    </span>                                    
+                    <span>
+                        la Vertu &lt;/h2&gt;&lt;/hgroup&gt; crea el perfil 1. Justine).
+                    </span>
+                </li> 
+            </ol>
+        </p>
+    </body>
+</html>
